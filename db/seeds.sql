@@ -7,3 +7,10 @@ VALUES  ("John", "Doe", 1, null),
         ("Malia", "Brown", 6, 5),
         ("Sarah", "Lourd", 7, null),
         ("Tom", "Allen", 8, 7);
+
+INSERT INTO role (title, salary, department_id)
+VALUES  ("Sales Lead", 100000, 1),
+
+
+
+INSERT INTO department (department)
