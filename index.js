@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 
 
 
-function init {
+function init() {
 
     inquirer
         .prompt(
@@ -42,6 +42,10 @@ function init {
             }
         })
         .catch((err) => console.error(err));
+}
+
+function viewAllEmployees () {
+    db.query()
 }
 
 init();
